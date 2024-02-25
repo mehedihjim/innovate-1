@@ -1,0 +1,130 @@
+/* Common CSS */
+
+:root{
+    --ff-open-sans: "Open Sans", sans-serif;
+    --ff-poppins: "Poppins", sans-serif;
+    --ff-nunito: "Nunito", sans-serif;
+
+    --clr-primary: #FF5538;
+    --clr-text: #29313D;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.cmn__button{
+    font-family: var(--ff-nunito);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 200%;
+    background: var(--clr-primary);
+    padding: 13px 27px;
+    color: #ffffff;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    border: 1px var(--clr-primary) solid;
+    display: inline-block;
+}
+
+.cmn__button:hover{
+    background: transparent;
+    color: var(--clr-primary);
+}
+/*=== Nav Section ===*/
+nav{
+    
+    position: absolute !important;
+    width: 100%;
+    z-index: 20;
+}
+
+.navbar-nav{
+    gap: 48px;
+}
+.nav-item .nav-link{
+    font-family: var(--ff-open-sans) !important;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--clr-text);
+}
+/*=== Banner Section ===*/
+#banner{
+    background: #FBF3F0;
+    position: relative;
+}
+.banner__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 293px 0 297px;
+}
+
+.banner__content h1{
+    font-family: var(--ff-poppins);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: capitalize;
+    width: 771px;
+    color: var(--clr-text);
+}
+
+.banner__content p{
+    font-family: var(--ff-nunito);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--clr-text);
+    line-height: 200%;
+    width: 547px;
+    margin: 24px 0 44px;
+}
+
+.banner_buttons{
+    display: flex;
+    gap: 24px;
+}
+
+.blue-pipe{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.pink-pipe{
+    position: absolute;
+    bottom: 205px;
+    left: 156px;
+}
+/*=== Banner Section ===*/
+/*=== Banner Section ===*/
+/*=== Banner Section ===*/
+/*=== Banner Section ===*/
